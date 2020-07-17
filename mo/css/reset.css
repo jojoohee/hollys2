@@ -1,0 +1,19 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+img {
+  vertical-align:bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,li,ol {
+  list-style: none;
+}
+

@@ -1,0 +1,19 @@
+.banner {
+  background-color: #ffffff;
+  padding: 20px 20px 100px 20px;
+}
+
+.banner>h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #b5121b;
+}
+
+.banner>div {
+  margin-bottom: 10px;
+}
+
+.banner>div>a>img {
+  width: 440px;
+}

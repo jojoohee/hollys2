@@ -1,0 +1,41 @@
+.wrap {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255,0,0,0.2);
+}
+
+/* 헤더 */
+.header {
+  height: 50px;
+  width: 480px;
+  background-color: #b5121b;
+}
+
+.title {
+  float: left;
+  width: 260px;
+  margin-left: 105px; 
+}
+
+h1 {
+  text-align: center;
+}
+
+h1>a {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.main_nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+ /* 메인배너 */
+ .main_banner {
+  clear: both;
+}

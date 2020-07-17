@@ -1,0 +1,20 @@
+.menu {
+  background-color: #ffffff;
+  padding: 20px 20px 100px 20px;
+}
+
+.menu>h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Roboto';
+  color: #b5121b;
+}
+
+.menu>div {
+  margin-bottom: 10px;
+}
+
+.menu>div>a>img {
+  width: 440px;
+}

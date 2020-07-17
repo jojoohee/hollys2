@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- IE chrome-->
+  <link rel="shortcut icon" href="./favicon-16.ico">
+  <link rel="shortcut icon" href="./favicon-16.png">
+  <link rel="shortcut icon" href="./favicon-32.ico">
+  <link rel="shortcut icon" href="./favicon-32.png">
+  <link rel="shortcut icon" href="./favicon-48.png">
+  <link rel="shortcut icon" href="./favicon-64.png">
+  <link rel="shortcut icon" href="./favicon-128.png">
+
+  <!-- safari 터치아이콘-->
+  <link rel="apple-touch-icon-precomposed" href="./favicon-128.png">
+  <!-- 구글폰트(Roboto,Noto Sans KR) -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- bx slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        mode:'fade',
+        responsive: false,
+        auto: true,
+        controls: false,
+        
+     });
+    });
+  </script>
+
+  <title>HOLLYS COFFEE</title>
+  <style>
+    
+
+    /* CSS reset */
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+
+    ul,ol,li {
+      list-style: none;
+    }
+
+    img {
+      vertical-align: top;
+    }
+
+    .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    body {
+      font-family: 'Noto Sans KR';
+    }
+
+
+
+    .eng {
+      font-family: 'Roboto';
+    }
+
+    .grid940 {
+      width: 940px;
+      margin: 0 auto;
+    }
+
+    /* header */
+    header {
+      padding-top: 22px;
+      border-bottom: 2px solid #ba000c;
+    }
+
+    .header_top {
+      margin-bottom: 10px;
+    }
+
+    .header_top>div {
+      float: left;
+    }    
+
+    .header_small_menu01 {
+      margin-top: -10px;
+    }
+
+    .header_small_menu01>ul>li {
+      float: left;
+      width: 70px;
+      margin-right: 10px;
+    }
+
+    .header_small_menu01>ul>li>a {
+      font-weight: bold;
+      font-size: 11px;
+      color: #333333;
+      transition: 0.3s;
+    }
+
+    .header_small_menu01>ul>li>a:hover {
+      color: #ba000c;
+    }
+
+    .header_small_menu01>ul>li>a>i {
+      margin-right: 6px;
+    }
+
+    .logo {
+      width: 393px;
+      text-align: center;
+    }
+
+    .header_top>.header_small_menu02 {
+      box-sizing: border-box;
+      width: 307px;
+      float: right;
+      padding: 0 7px 0 7px;
+    }
+
+    .header_small_menu02 {
+      margin-top: -10px;
+    }
+
+    .header_small_menu02>ul>li {
+      float: left;
+      margin-right: 19px;
+    }
+
+    .header_small_menu02>ul>li>a {
+      font-size: 10px;
+      color: #666666;
+    }
+
+
+    .header_bottom {
+
+    }
+
+    .header_bottom>ul>li {
+      float: left;
+      width: 16.66666666666667%;
+      text-align: center;
+      padding: 12px 0 20px 0;
+      transition: 3s;
+    }
+
+    .header_bottom>ul>li:hover {
+      background-color: #ba000c;
+    }
+
+    .header_bottom>ul>li>a {
+      font-weight: 900;
+      font-size: 19px;
+      color: #333333;
+      transition: 3s;
+    }
+
+    .header_bottom>ul>li:hover>a {
+      color: #ffffff;
+    }
+
+    .bx-wrapper .bx-controls-direction a {
+      display: none;
+    }
+
+ /* 메인배너 */
+    .main_banner {
+      margin-bottom: 46px;
+    }
+
+    .main_banner .bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    }
+
+    .main_banner .bx-wrapper .bx-pager {
+      bottom: 20px;
+    }
+
+    .main_banner .bx-wrapper .bx-pager.bx-default-pager a, .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #CCCCCC;
+    width: 16px;
+    height: 16px;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+    border-radius: 8px;
+    } 
+
+    .main_banner .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #ba000c;
+    } 
+
+    /* fra_mall_store */
+
+    .fra_mall_store {
+      margin-bottom: 40px;
+    }
+
+    .fra,.mall,.store {
+      float: left;
+      width: 228px;
+      margin-right: 10px;
+      position: relative;
+    }
+
+    
+
+    .fra>.fra_tit,
+    .mall>.mall_tit,
+    .store>.store_tit,
+    .fra>.fra_txt,
+    .mall>.mall_txt,
+    .store>.store_txt {
+      position: absolute;
+      left: 22px;
+    }
+
+    .fra>.fra_tit,
+    .mall>.mall_tit,
+    .store>.store_tit {
+      top: 18px;
+    }
+
+    .fra>.fra_txt,
+    .mall>.mall_txt,
+    .store>.store_txt {
+      top: 60px;
+    }
+
+    .fra_mall_store h2 {
+      font-family: 'Roboto';
+      font-weight: 900;
+      font-size: 24px;
+      color: #333333;
+    }
+
+    .fra_txt>p,
+    .mall_txt>p,
+    .store_txt>p {
+      font-size: 14px;
+      color: #666666;
+      line-height: 21px;
+    }
+    
+    .mall {
+      width: 460px;
+    }
+
+    .mall h2 {
+      color: #ba000c;
+    }
+    
+    .mall_list {
+      padding-top: 90px;
+    }
+
+    .mall_list_item {
+      float: left;
+    }
+    
+    .mall_list_item p {
+      text-align: center;
+      font-weight: 100;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333333;
+    }
+
+    .mall_line {
+      border-right: 2px solid #ba000c;
+
+    }
+
+    .store {
+      margin-right: 0;
+    }
+
+
+    /* 섹션03 */
+    .banner01 {
+      float: left;
+    }
+    .banner02 {
+      float: right;     
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="grid940">
+        <div class="header_top clearfix">
+          <div class="header_small_menu01">
+            <ul class="clearfix">
+              <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>가맹문의</a></li>
+              <li><a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>아카데미</a></li>
+              <li><a href="#"><i class="fa fa-coffee" aria-hidden="true"></i>기업특판</a></li>
+            </ul>
+          </div>
+          <div class="logo">
+            <a href="index.html">
+              <img src="./images/logo.jpg" alt="로고">
+            </a>
+          </div>
+          <div class="header_small_menu02">
+            <ul class="clearfix">
+              <li><a href="#">멤버십 로그인</a></li>
+              <li><a href="#">멤버십 가입</a></li>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#" class="eng">English</a></li>
+              <li><a href="#">中文</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_bottom eng">
+          <ul class="clearfix">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">HOLLYS Mall</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">HOLLYS News</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">HOLLYS is</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="sec01 main_banner">
+      <div class="slider">
+        <div><img src="./images/main_banner01.jpg" alt="메인배너01"></div>
+        <div><img src="./images/main_banner02.jpg" alt="메인배너02"></div>
+        <div><img src="./images/main_banner03.jpg" alt="메인배너03"></div>
+        <div><img src="./images/main_banner04.jpg" alt="메인배너04"></div>
+        <div><img src="./images/main_banner05.jpg" alt="메인배너05"></div>
+      </div>
+    </section>
+    <section class="sec02 fra_mall_store">
+      <div class="grid940 clearfix">
+        <div class="fra">
+          <div class="fra_tit">  
+            <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i> Franchise</h2>
+          </div>
+          <div class="fra_txt">
+            <p>가맹문의</p>
+          </div>
+          <div class="fra_img">
+            <img src="./images/franchise.jpg" alt="프랜차이즈">
+          </div>
+        </div> 
+        <div class="mall">
+          <div class="mall_tit">    
+            <h2><i class="fa fa-gift" aria-hidden="true"></i> HOLLYS Mall</h2>
+          </div>
+          <div class="mall_txt">
+            <p>할리스커피의 다양한 상품들을 온라인에서도 만나보세요.</p>
+          </div>
+          <div class="mall_list">
+            <ul class="clearfix">
+              <li class="mall_list_item">
+                <ul>
+                  <li><img src="./images/mall01.jpg" alt="초코빙수"></li>
+                  <li>
+                    <p>할리스X몰티져스<br/>
+                     초코빙수
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="mall_list_item">
+                <ul>
+                  <li><img src="./images/mall02.jpg" alt="망고치즈 빙수"></li>
+                  <li>
+                    <p>
+                      망고 치즈케익 빙수
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="mall_list_item">
+                <ul>
+                  <li><img src="./images/mall03.jpg" alt="딸기치즈 빙수"></li>
+                  <li>
+                    <p>
+                      딸기 치즈케익 빙수
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="store">
+          <div class="store_tit">  
+            <h2><i class="fa fa-shopping-cart" aria-hidden="true"></i> Store</h2>
+          </div>
+          <div class="store_txt">
+            <p>전국에 있는 할리스 매장을 찾아드립니다.</p>
+          </div>
+          <div class="store_img">
+            <img src="./images/store.jpg" alt="스토어">
+          </div>
+        </div>  
+    </section>
+    <section class="sec03 banner">
+      <div class="grid940 clearfix">
+        <div class="banner01">
+          <a href="#">
+           <img src="./images/banner01.jpg" alt="배너1">
+          </a>
+        </div>
+        <div class="banner02">
+          <a href="#">
+           <img src="./images/banner02.jpg" alt="배너2">
+          </a> 
+        </div>
+      </div>
+    </section>
+    <section class="sec04 notice">
+      <div class="grid940 clearfix">
+        <div>
+          <div class="notice_tit">
+            <h2>
+              <i class="fa fa-pencil" aria-hidden="true"></i>
+              Coffe Academy
+            </h2>
+          </div>
+          <div class="notice_txt">
+            <p>
+              할리스커피 아카데미와 함께하는 즐거운<br/>
+            커피 여행!
+            </p>
+          </div>
+          <div class="notice_quick">
+            <p>
+              <i class="fa fa-play-circle" aria-hidden="true"></i>
+              바로가기
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="notice_tit">
+            <h2>
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+              Hollys B2B Solution
+            </h2>
+          </div>
+          <div class="notice_txt">
+            <p>
+              할리스 F&B는 20년의 커피 노하우를<br/>
+              기반으로 한 할리스 B2B 솔루션을<br/>
+              소개합니다.
+            </p>
+          </div>
+          <div class="notice_quick">
+            <p>
+              <i class="fa fa-play-circle" aria-hidden="true"></i>
+              바로가기
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="notice_tit">
+            <h2>
+              <i class="fa fa-volume-up" aria-hidden="true"></i>
+              News
+              <i class="fa fa-play-circle" aria-hidden="true"></i>
+            </h2>
+          </div>
+          <div class="notice_txt">
+            <ul>
+              <li class="clearfix">
+                <div>
+                  <p>
+                    코로나 극복을 위한 고객....
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    2020-06-11
+                  </p>
+                </div>
+              </li>
+              <li class="clearfix">
+                <div>
+                  <p>
+                    2020년 여름시즌 신제품....
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    2020-06-05
+                  </p>
+                </div>
+              </li>
+              <li class="clearfix">
+                <div>
+                  <p>
+                    동대구역점 신규매장 오....
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    2020-04-24
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="notice_quick">       
+          </div>
+        </div>
+        <div class="etc_imgs clearfix">
+          <div class="etc_img">
+            <img src="./images/icon01.jpg" alt="">
+          </div>
+          <div class="etc_img">
+            <img src="./images/icon02.jpg" alt="">
+          </div>
+          <div class="etc_img">
+            <img src="./images/icon03.jpg" alt="">
+          </div>
+        </div>
+        <div class="etc_txt clearfix">
+          <p>창업안내</p>
+          <p>아카데미 강좌</p>
+          <p>고객문의</p>
+        </div>
+      </div>
+    </section>
+    <section class="sec05 sns"></section>
+    <footer class="footer"></footer>
+  </div>
+</body>
+</html>
